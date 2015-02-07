@@ -11,4 +11,12 @@ Tietoja yhdistetään backendissä ja visualisoidaan front-endissä.
 
 
 
+# Toiminnallisuuskandidaatteja #
+
+Sää vs. kilometrit visualisointi
+Lenkin lisääminen
+        Minimum viable product
+Kuvien lisäys sää vs. kilometrien visualisointiin
+Laji - sää - kilometrit -visualisointi
+Visualisointi vuosittain (esim. sää vs. kilometrit)
 
