@@ -1,0 +1,11 @@
+h1 {
+	color: blue;
+	font-family: 'Shift', sans-serif;
+	font-size: 60px;
+}
+
+.weatherKmVisualize {
+	padding: 23px;
+	padding-top: 10px;
+	padding-left: 200px;	
+}
