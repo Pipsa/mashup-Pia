@@ -65,6 +65,7 @@ storage.storage = function () {
  		createCollection : createCollection,
  		import : import,
  		add : add,
- 		get : get
+ 		getAll : getAll,
+ 		getSpecific : getSpecific
  	};
 };
