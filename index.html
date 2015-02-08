@@ -20,12 +20,63 @@
 
 	"use strict"
 
-	// Request URL:http://localhost:8888/start?
-	console.log("Fetching kilometers by weather.");
+	// Startup weatherKm -server or is the weatherKm server started manually separately?
 
-	console.log("Visualise weather kilometers.");
+	var fe = fe || {};
+	
+	fe.visualiseWeatherKm = function(){
+		
+		var summarize = function() {
+			var summaryInfo = [
+				{ 'weather' : 'sunny', 'jog' : 814},
+				{ 'weather' : 'rainy', 'jog' : 203},
+				{ 'weather' : 'cloudy', 'jog' : 1018}
+			];
+			 console.log("Fetching kilometers by weather.");
+			 var url = "http://localhost:8888/getWeatherKm?";
+			 // Mitenkä sitä kutsutaan?
 
-	console.log("Jogging addition requested.");
+			console.log("Visualise weather kilometers.");
+			
+			for (var i = 0; i < summaryInfo.length; i++) {
+        	  var weather = summaryInfo[i].weather;
+        		var jog = summaryInfo[i].jog;	
+				console.log("In " + weather + " days " +jog + " km");
+			};			
+
+		};
+
+		return {
+			summarize: summarize
+		};
+	 };
+
+
+	fe.handlejogs = function(){
+
+		var add = function(jogInfo) {
+			var url = "http://localhost:8888/addJog?year=" // + jogInfo[0].year + "&month=" + jogInfo[0].month + "&day=" + jogInfo[0].day + "&jog=" + jogInfo[0].jog + "&exercise=" + jogInfo[0].exercise";
+			console.log("Jogging addition requested.");
+			console.log("url=" + url);
+
+			console.log(jogInfo[0].day + "." +  jogInfo[0].month + "." + jogInfo[0].year + " " + jogInfo[0].jog + " " + jogInfo[0].exercise);
+		};
+
+		return {
+			add : add
+		};
+	};
+	
+	var weatherSummary = fe.visualiseWeatherKm();
+	var jog = fe.handlejogs();
+	var jogInfo = [
+				{ 'year' : '2015', 'month' : '1', 'day' : "3", jog : 7, 'exercise' : 'km running' }
+			];
+
+
+	weatherSummary.summarize();
+	jog.add(jogInfo);
+	
 
 </script>
 

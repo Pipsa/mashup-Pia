@@ -1,5 +1,7 @@
 "use strict"
 
+var storage = storage || {};
+
 storage.storage = function () {
 	var status = 0;
 
