@@ -20,3 +20,8 @@ Tietoja yhdistetään backendissä ja visualisoidaan front-endissä.
 * Laji - sää - kilometrit -visualisointi
 * Visualisointi vuosittain (esim. sää vs. kilometrit)
 
+# WeatherKM stucture #
+
+![Infovis structure](infovis-structure.png)
+
+
