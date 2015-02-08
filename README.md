@@ -15,7 +15,7 @@ Tietoja yhdistetään backendissä ja visualisoidaan front-endissä.
 
 * Sää vs. kilometrit visualisointi
 * Lenkin lisääminen
-*        Minimum viable product
+*        = Minimum viable product
 * Kuvien lisäys sää vs. kilometrien visualisointiin
 * FE tarkenna - painike
 * Laji - sää - kilometrit -visualisointi
