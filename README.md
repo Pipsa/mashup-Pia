@@ -17,10 +17,11 @@ Tietoja yhdistetään backendissä ja visualisoidaan front-endissä.
 * Lenkin lisääminen
 *        Minimum viable product
 * Kuvien lisäys sää vs. kilometrien visualisointiin
+* FE tarkenna - painike
 * Laji - sää - kilometrit -visualisointi
 * Visualisointi vuosittain (esim. sää vs. kilometrit)
 
-# WeatherKM stucture #
+# weatherKm rakenne #
 
 ![Infovis structure](infovis-structure.png)
 
