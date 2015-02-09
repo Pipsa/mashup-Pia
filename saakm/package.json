@@ -1,0 +1,27 @@
+{
+  "name": "saakm",
+  "version": "1.0.0",
+  "description": "Combines weather and jogging data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pipsa/mashup-Pia"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Pipsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pipsa/mashup-Pia/issues"
+  },
+  "homepage": "https://github.com/Pipsa/mashup-Pia",
+  "dependencies": {
+    "express": "^4.11.2",
+    "lodash": "^3.1.0",
+    "mongodb": "^1.4.30"
+  }
+}
