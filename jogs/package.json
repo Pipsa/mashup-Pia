@@ -1,0 +1,28 @@
+{
+  "name": "jogs",
+  "version": "1.0.0",
+  "description": "Based on Hand-on training by Riku Rouvali",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pipsa/mashup-Pia\""
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Pia Närvänen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pipsa/mashup-Pia\"/issues"
+  },
+  "homepage": "https://github.com/Pipsa/mashup-Pia\"",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "mongodb": "^1.4.30",
+    "serve-static": "^1.8.1"
+  }
+}
