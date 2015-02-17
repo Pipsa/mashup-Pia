@@ -1,17 +1,23 @@
 # mashup-Pia
-A Node.js back-end that mashes up information for a JavaScript front-end
+Target was to have a Node.js back-end that mashes up information for a JavaScript front-end.
+Implementation is torso - FE-BE connection do not work
 
-# Tietolähteet #
+The torso is found in jogs subfolder. Mongodb need to be up and running
+node.js index.js
 
-Tämä mashup käyttää lähteenä:
+Sääkm was not implemented.
+
+# Sääkm tietolähteet #
+
+Sääkm käyttäisi lähteenä:
 * Ilmatieteen laitoksen säädataa
 * Lenkkeilytietoa
 
-Tietoja yhdistetään backendissä ja visualisoidaan front-endissä.
+Tietoja yhdistettäisiin backendissä ja visualisoidaan front-endissä.
 
 
 
-# Toiminnallisuuskandidaatteja #
+# Sääkm toiminnallisuuskandidaatteja #
 
 * Sää vs. kilometrit visualisointi
 * Lenkin lisääminen
@@ -21,7 +27,7 @@ Tietoja yhdistetään backendissä ja visualisoidaan front-endissä.
 * Laji - sää - kilometrit -visualisointi
 * Visualisointi vuosittain (esim. sää vs. kilometrit)
 
-# weatherKm rakenne #
+# Sääkm rakenne #
 
 ![Infovis structure](infovis-structure.png)
 
