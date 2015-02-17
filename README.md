@@ -2,8 +2,8 @@
 Target was to have a Node.js back-end that mashes up information for a JavaScript front-end.
 Implementation is torso - FE-BE connection do not work
 
-The torso is found in jogs subfolder. Mongodb need to be up and running
-node.js index.js
+The torso is found in jogs subfolder. Mongodb need to be up and running.
+node index.js
 
 Sääkm was not implemented.
 
