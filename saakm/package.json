@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Pipsa/mashup-Pia",
   "dependencies": {
     "express": "^4.11.2",
-    "lodash": "^3.1.0",
+    "lodash": "^4.17.19",
     "mongodb": "^1.4.30"
   }
 }
